@@ -9,6 +9,5 @@ namespace FactoryGame
     abstract class GameCreator
     {
         public abstract GameProduct createGame();
-
     }
 }
