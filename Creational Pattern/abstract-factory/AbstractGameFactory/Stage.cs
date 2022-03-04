@@ -13,10 +13,10 @@ namespace AbstractFactory
 
         // Constructor
 
-        public Stage(CharacterGenerator factory)
+        public Stage(CharacterGenerator character)
         {
-            wizard = factory.createWizard();
-            warrior = factory.createWarrior();
+            wizard = character.createWizard();
+            warrior = character.createWarrior();
         }
 
         public void start()
