@@ -8,7 +8,7 @@ namespace NotificationDecorator
 {
     public abstract class Decorator: Notification
     {
-        private Notification notification;
+        protected Notification notification;
         public void setNotification(Notification notification)
         {
             this.notification = notification;
