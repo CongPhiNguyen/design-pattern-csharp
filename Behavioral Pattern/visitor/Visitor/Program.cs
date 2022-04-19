@@ -10,7 +10,8 @@
             ConcreteVisitor1 v1 = new ConcreteVisitor1();
             ConcreteVisitor2 v2 = new ConcreteVisitor2();
             o.Accept(v1);
-            // o.Accept(v2);
+            
+            o.Accept(v2);
         }
     }
 }
