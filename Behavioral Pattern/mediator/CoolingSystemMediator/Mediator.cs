@@ -26,6 +26,7 @@ namespace CoolingSystemMediator
             this.powerSupplier = null;
             this.button = null;
         }
+        
         public void press()
         {
             if (fan.isOn)
